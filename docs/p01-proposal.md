@@ -36,7 +36,6 @@ An area of interest that we shared and chose to analyze is music. Today, music i
   **2.** The second situation that we found was the number of sales regarding the music industry. In this dataset, there were 3,008 observations for 5 columns (format(CD, tape, etc.), metric. the years, and the number of records sold.) of the number of sales between 1973 to 2019.
 
    * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
->>>>>>> 1152f95ddbbbe4247ab0990292d2bda5783f2dc2
 
 
 ### 3.0 Research Questions
