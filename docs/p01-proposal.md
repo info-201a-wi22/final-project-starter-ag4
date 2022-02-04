@@ -2,11 +2,11 @@
 
 **Authors**
 
-Jacob Waltzer
+Jacob Waltzer (jacobwaltzer03@gmail.com)
 
-Carson Foster Klein
+Carson Foster Klein (carson.f.k@outlook.com)
 
-Cole Graham
+Cole Graham (cag6083@uw.edu)
 
 Non Pronanun (ntppronanun@gmail.com)
 
