@@ -27,6 +27,15 @@ An area of interest that we shared and chose to analyze is music. Today, music i
 
 ### 4.0 The Dataset
 
+#### Size
+The data set is actually made up of 7 different files. Each file represents a decade (starting from the 1950s going up to 2010s) and each file has about 100 top songs from the decade and includes about 15 attributes about each row (song). Each song has plenty of information and the dataset is well organized in that it includes the most useful information about the most popular songs of every decade.
+
+#### Complexity
+The dataset is decently complex and includes basic attributes like song name, artists, year, but also more complex features like bpm of each song, energy level, dB, duration, and even how much of the song is spoken word. It will be useful to know the year and artists, even the labeled genre of every song, but looking at more quantitative data like song length and dB level of the most popular songs will show more concrete trends throughout the decades.
+
+#### origins
+The data and information itself is collected from Spotify. Spotify has playlists that highlight the top songs from each decade, so even though Spotify does not have direct numbers about how popular songs were on its platform going back to the 1950's (obviously), they have playlists from each decade and of course are able to collect data from every recording that is posted on its platform. The data files have been compiled on Kaggle, where we got it, but the original data is from Spotify. The data is raw and is not written to push an agenda or sell a particular artist, it is available to help answer and explore questions regarding every decade. We plan on using this data set to explore possible trends in the real world (like introduction of steaming platforms, rising popularity of social media, cultural shifts, etc.) and how it may affect trends in music popularity.
+
 ### 5.0 Expected Implications
 Given that we know the answer to our design question, we think that this will give the people a clearer picture in the growth of these platforms and from this, they may be able to have an idea on what may have caused such rapid growths. This data might also help those who are looking to enter the music industry, since it will allow them to know the best way to gain recognition or know if music digitalization platforms can serve as a basis for their careers. As for the platforms themselves, they might be able to find patterns in the causation in rapid growths or whether they have exhausted the demand for music digitalization a certain region/genre or not.
 
