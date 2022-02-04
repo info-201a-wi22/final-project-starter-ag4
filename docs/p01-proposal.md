@@ -1,20 +1,42 @@
-# Title of your Project: Project Proposal 
+# Title of your Project: Project Proposal
 
-**TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
+**Authors**
+
+Jacob Waltzer
+
+Carson Foster Klein
+
+Cole Graham
+
+Non Pronanun (ntppronanun@gmail.com)
+
+**INFO-201: Technical Foundations of Informatics - The Information School - University of Washington**
+
+**Date:** Winter 2022
+
+### 1.0 Introduction
+An area of interest that we shared and chose to analyze is music. Today, music is something that is universal, almost everyone listens to music in their leisure time. People's source of music has also evolved over the years and when we think of music nowadays, we don't think of cassette tapes and turntables anymore, rather we lean towards music digitalization and streaming platforms such as Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their development over the years.
+
+## 5.0 Expected Implications
+Given that we know the answer to our design question, we think that this will give the people a clearer picture in the growth of these platforms and from this, they may be able to have an idea on what may have caused such rapid growths. This data might also help those who are looking to enter the music industry, since it will allow them to know the best way to gain recognition or know if music digitalization platforms can serve as a basis for their careers. As for the platforms themselves, they might be able to find patterns in the causation in rapid growths or whether they have exhausted the demand for music digitalization a certain region/genre or not.
+
+### 6.0 Limitations
+Mainly the limitations for this project is that certain data are not made publicly available, these may include the specific geographical demographics of listeners. In addition, due to these platforms being relatively new and still adjusting and evolving with the general populous, it is hard to be sure about the accuracy of some of the statistics.
+
 
 ## Developer Notes
 
 * **Where is the project brief?**  [`../instructions/project-design-brief.pdf`](../instructions/project-design-brief.pdf).
-* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed! 
-* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief. 
-* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors. 
-* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation. 
+* **Making Progress**: We understand this work might be difficult. Also, we understand that your project ideas might not be completely worked out. So, we ask that you do the best you can. You will receive specific guidance from your TA and constructive feedback. We are confident that you will succeed!
+* **What should be included in the proposal?** Every proposal will be different. It depends on your particular project.  That said, in the table below you will find the expected report elements.  It is important that you engage with and respond to the the Design Brief.
+* **How should the proposal be formatted?** You should format your proposal using Markdown in this file. You should aim for a professional presentation - clear, concise, interesting, and free of spelling and grammatical errors.
+* **What headings should we use?** As needed, the suggested headings below can be revised and new headings and sub-headings can be added. Please use headings, bullet lists, tables, figures, and other markdown code effectively - seek a professional presentation.
 * **Finishing up.** When you are finished writing and formatting your proposal, save these developer notes(they might useful in the future). Then, delete them.
 * **Questions?** If you have questions, please ask your TA or post on Teams.
 
 |Element | Brief Description|
 |---------------| --------------
-|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc. | 
+|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _Jazz-4_, _Rocking Fish_, etc. |
 |Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) |
 |Authors | Names of your team members and contact information (email addresses). |
 |Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
