@@ -14,6 +14,16 @@ Non Pronanun (ntppronanun@gmail.com)
 
 **Date:** Winter 2022
 
+
+### Abstract
+
+### Keywords
+
+* Music genre
+* Popularity
+* Societal changes
+* Barriers to entry
+
 ### 1.0 Introduction
 An area of interest that we shared and chose to analyze is music. Today, music is something that is universal, almost everyone listens to music in their leisure time. People's source of music has also evolved over the years and when we think of music nowadays, we don't think of cassette tapes and turntables anymore, rather we lean towards music digitalization and streaming platforms such as Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their development over the years.
 
@@ -24,8 +34,7 @@ An area of interest that we shared and chose to analyze is music. Today, music i
   * the human values present is the growth of this industry which may provide people with more opportunities, such as jobs, and also to be able to estimate the reason and the trends for this growth. The direct stakeholders are the listeners of Spotify and Spotify themselves. The indirect stakeholders are other music digitalization platforms.
 
   **3.** The third dataset that we found was the number of sales regarding the music industry. In this dataset, there were 3,008 observations for 5 columns (format(CD, tape, etc.), metric. the years, and the number of records sold.) of the number of sales between 1973 to 2019.
-   
-   * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
+    * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
 
 
 ### 3.0 Research Questions
@@ -45,7 +54,6 @@ Mainly the limitations for this project is that certain data are not made public
 Carbone, Nicholas (2019). _Spotify Past Decades Songs Attributes_. Retrieved from https://www.kaggle.com/cnic92/spotify-past-decades-songs-50s10s?select=2010.csv
 
 Spotify (2021). _Number of Spotify Premium Subscibers Worldwide from 1st Quarter 2015 to 3rd Quarter 2021_. Retrieved from https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
-
 
 ## Developer Notes
 
