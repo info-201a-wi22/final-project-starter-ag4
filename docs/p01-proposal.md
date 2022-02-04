@@ -20,7 +20,7 @@ An area of interest that we shared and chose to analyze is music. Today, music i
 ### 2.0 Design Situation
 
 **1.** The first dataset that we found is the number of subscribers of Spotify premium since Q1 of 2015. [Number of Spotify premium subscribers worldwide from 1st quarter 2015 to 3rd quarter 2021](https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/)
-![Spotify Premium subscribers over the years](final-project-starter-ag4/figures/SpotifyUsers.png"Spotify Premium Users")
+![Spotify Premium subscribers over the years](figures/SpotifyUsers.png "Spotify Premium Users")
   * the human values present is the growth of this industry which may provide people with more opportunities, such as jobs, and also to be able to estimate the reason and the trends for this growth. The direct stakeholders are the listeners of Spotify and Spotify themselves. The indirect stakeholders are other music digitalization platforms.
 
 ### 3.0 Research Questions
