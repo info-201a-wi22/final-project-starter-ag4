@@ -17,7 +17,7 @@ Non Pronanun (ntppronanun@gmail.com)
 ### 1.0 Introduction
 An area of interest that we shared and chose to analyze is music. Today, music is something that is universal, almost everyone listens to music in their leisure time. People's source of music has also evolved over the years and when we think of music nowadays, we don't think of cassette tapes and turntables anymore, rather we lean towards music digitalization and streaming platforms such as Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their development over the years.
 
-## 5.0 Expected Implications
+### 5.0 Expected Implications
 Given that we know the answer to our design question, we think that this will give the people a clearer picture in the growth of these platforms and from this, they may be able to have an idea on what may have caused such rapid growths. This data might also help those who are looking to enter the music industry, since it will allow them to know the best way to gain recognition or know if music digitalization platforms can serve as a basis for their careers. As for the platforms themselves, they might be able to find patterns in the causation in rapid growths or whether they have exhausted the demand for music digitalization a certain region/genre or not.
 
 ### 6.0 Limitations
