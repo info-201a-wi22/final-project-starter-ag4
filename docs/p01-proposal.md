@@ -37,6 +37,11 @@ An area of interest that we shared and chose to analyze is music. Today, music i
 
    * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
 
+**3.** The third design situation that we considered is the songs that were most popular in each decade from 1950 to 2019. This dataset is made by Spotify and it shows specific details of each song that we can gain more insight into the direction of which song is popular in the given timeframe.
+ 
+ * For this dataset, the human values of this dataset deals most with which songs that the general populous determines as more popular throughout the recent few decades. The direct stakeholders here are the people that listen to music since the 1950, since these data provides a representation of the direction that music popularity is going. The indirect stakeholders for this can be the people who are distributing music, as they might not know the trends of popularity of music, but are responsible for giving people access to music.
+
+
 
 ### 3.0 Research Questions
 
