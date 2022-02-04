@@ -23,7 +23,14 @@ An area of interest that we shared and chose to analyze is music. Today, music i
 ![Spotify Premium subscribers over the years](https://github.com/info-201a-wi22/final-project-starter-ag4/blob/main/figures/SpotifyUsers.png "Spotify Premium Users")
   * the human values present is the growth of this industry which may provide people with more opportunities, such as jobs, and also to be able to estimate the reason and the trends for this growth. The direct stakeholders are the listeners of Spotify and Spotify themselves. The indirect stakeholders are other music digitalization platforms.
 
+  **3.** The third dataset that we found was the number of sales regarding the music industry. In this dataset, there were 3,008 observations for 5 columns (format(CD, tape, etc.), metric. the years, and the number of records sold.) of the number of sales between 1973 to 2019.
+   
+   * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
+
+
 ### 3.0 Research Questions
+
+How do societal changes influence the popularity of specific music genres?
 
 ### 4.0 The Dataset
 
@@ -43,6 +50,9 @@ Given that we know the answer to our design question, we think that this will gi
 Mainly the limitations for this project is that certain data are not made publicly available, these may include the specific geographical demographics of listeners. In addition, due to these platforms being relatively new and still adjusting and evolving with the general populous, it is hard to be sure about the accuracy of some of the statistics.
 
 ### References
+
+Carbone, Nicholas (2019). _Spotify Past Decades Songs Attributes_. Retrieved from https://www.kaggle.com/cnic92/spotify-past-decades-songs-50s10s?select=2010.csv
+
 Spotify (2021). _Number of Spotify Premium Subscibers Worldwide from 1st Quarter 2015 to 3rd Quarter 2021_. Retrieved from https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
 
 
