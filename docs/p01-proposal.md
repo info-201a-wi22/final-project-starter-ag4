@@ -50,6 +50,8 @@ Carbone, Nicholas (2019). _Spotify Past Decades Songs Attributes_. Retrieved fro
 
 Spotify (2021). _Number of Spotify Premium Subscibers Worldwide from 1st Quarter 2015 to 3rd Quarter 2021_. Retrieved from https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
 
+Tableau, C. (2020, May 24). _Visualizing 40 Years of Music industry Sales_. Retrieved February 4, 2022, from https://data.world/makeovermonday/2020w21-visualizing-40-years-of-music-industry-sales 
+
 
 ## Developer Notes
 
