@@ -36,6 +36,9 @@ Given that we know the answer to our design question, we think that this will gi
 Mainly the limitations for this project is that certain data are not made publicly available, these may include the specific geographical demographics of listeners. In addition, due to these platforms being relatively new and still adjusting and evolving with the general populous, it is hard to be sure about the accuracy of some of the statistics.
 
 ### References
+
+Carbone, Nicholas (2019). _Spotify Past Decades Songs Attributes_. Retrieved from https://www.kaggle.com/cnic92/spotify-past-decades-songs-50s10s?select=2010.csv
+
 Spotify (2021). _Number of Spotify Premium Subscibers Worldwide from 1st Quarter 2015 to 3rd Quarter 2021_. Retrieved from https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
 
 
