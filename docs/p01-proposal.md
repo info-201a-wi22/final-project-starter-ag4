@@ -1,12 +1,12 @@
-# Title of your Project: Project Proposal
+# Music Popularity Over the Years
 
 **Authors**
 
-Jacob Waltzer
+Jacob Waltzer (jacobwaltzer03@gmail.com)
 
-Carson Foster Klein
+Carson Klein (carsonfk@uw.edu)
 
-Cole Graham
+Cole Graham (cag6083@uw.edu)
 
 Non Pronanun (ntppronanun@gmail.com)
 
@@ -14,22 +14,41 @@ Non Pronanun (ntppronanun@gmail.com)
 
 **Date:** Winter 2022
 
+<<<<<<< HEAD
 **Abstract**
+=======
+### Abstract
+
+Our main question is how do societal changes influence the popularity of music genres which is important because music is a very large industry and is influential in many people's lives. To address this question we will evaluate the most popular songs since the 1950s and their attributes (i.e. beats per minute, year, genre, etc.), Spotify premium subscribers per quarter since 2015, and number of music sales depending on medium. Our main concern is that there is not enough extensive and reliable data; To address this concern we will find as much data as possible and compare to ensure accuracy. Considering that music is more accessible than ever, this is important because music is integral to lives of people. Accordingly, we plan to observe trends in data pertaining to popularity of music genres.
+
+### Keywords
+
+* Music genre
+* Popularity
+* Societal changes
+* Barriers to entry
+>>>>>>> a51dd2f9c894b6a72be5fd6a95f909b85fd62280
 
 ### 1.0 Introduction
 An area of interest that we shared and chose to analyze is music. Today, music is something that is universal, almost everyone listens to music in their leisure time. People's source of music has also evolved over the years and when we think of music nowadays, we don't think of cassette tapes and turntables anymore, rather we lean towards music digitalization and streaming platforms such as Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their development over the years.
 
 ### 2.0 Design Situation
 
-**1.** The first dataset that we found is the number of subscribers of Spotify premium since Q1 of 2015. [Number of Spotify premium subscribers worldwide from 1st quarter 2015 to 3rd quarter 2021](https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/)
+**1.** The first situation that we found is the number of subscribers of Spotify premium since Q1 of 2015. [Number of Spotify premium subscribers worldwide from 1st quarter 2015 to 3rd quarter 2021](https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/)
 ![Spotify Premium subscribers over the years](https://github.com/info-201a-wi22/final-project-starter-ag4/blob/main/figures/SpotifyUsers.png "Spotify Premium Users")
   * the human values present is the growth of this industry which may provide people with more opportunities, such as jobs, and also to be able to estimate the reason and the trends for this growth. The direct stakeholders are the listeners of Spotify, since these are the main users of Spotify and this data is a representation of them, and Spotify themselves, as they are responsible for the maintenance/growth of the platform. The indirect stakeholders are other music digitalization platforms.
 
   **3.** The third dataset that we found was the number of sales regarding the music industry. In this dataset, there were 3,008 observations for 5 columns (format(CD, tape, etc.), metric. the years, and the number of records sold.) of the number of sales between 1973 to 2019.
     * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
 
-  **3.** The third dataset that we found was the number of sales regarding the music industry. In this dataset, there were 3,008 observations for 5 columns (format(CD, tape, etc.), metric. the years, and the number of records sold.) of the number of sales between 1973 to 2019.
-    * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
+  **2.** The second situation that we found was the number of sales regarding the music industry. In this dataset, there were 3,008 observations for 5 columns (format(CD, tape, etc.), metric. the years, and the number of records sold.) of the number of sales between 1973 to 2019.
+
+   * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
+
+**3.** The third design situation that we considered is the songs that were most popular in each decade from 1950 to 2019. This dataset is made by Spotify and it shows specific details of each song that we can gain more insight into the direction of which song is popular in the given timeframe.
+
+ * For this dataset, the human values of this dataset deals most with which songs that the general populous determines as more popular throughout the recent few decades. The direct stakeholders here are the people that listen to music since the 1950, since these data provides a representation of the direction that music popularity is going. The indirect stakeholders for this can be the people who are distributing music, as they might not know the trends of popularity of music, but are responsible for giving people access to music.
+
 
 **3.** The third design situation that we considered is the songs that were most popular in each decade from 1950 to 2019. This dataset is made by Spotify and it shows specific details of each song that we can gain more insight into the direction of which song is popular in the given timeframe.
   * For this dataset, the human values of this dataset deals most with which songs that the general populous determines as more popular throughout the recent few decades. The direct stakeholders here are the people that listen to music since the 1950, since these data provides a representation of the direction that music popularity is going. The indirect stakeholders for this can be the people who are distributing music, as they might not know the trends of popularity of music, but are responsible for giving people access to music.
@@ -37,9 +56,23 @@ An area of interest that we shared and chose to analyze is music. Today, music i
 
 ### 3.0 Research Questions
 
-How do societal changes influence the popularity of specific music genres?
+* How do societal changes influence the popularity of specific music genres?
+
+* How do changing barriers to entry influence the popularity of specific music genres?
+
+These questions are important because they aim to lead to a better understanding of the changing involvement of music in our lives. Music represents a major part of society, and we shape music trends as much as they shape our world. With the lower barriers to entry, this is more true now than it ever has been, as more people are involved in creating and listening to music than in the past.
 
 ### 4.0 The Dataset
+
+#### Size
+The data set is actually made up of 7 different files. Each file represents a decade (starting from the 1950s going up to 2010s) and each file has about 100 top songs from the decade and includes about 15 attributes about each row (song). Each song has plenty of information and the dataset is well organized in that it includes the most useful information about the most popular songs of every decade.
+
+#### Complexity
+The dataset is decently complex and includes basic attributes like song name, artists, year, but also more complex features like bpm of each song, energy level, dB, duration, and even how much of the song is spoken word. It will be useful to know the year and artists, even the labeled genre of every song, but looking at more quantitative data like song length and dB level of the most popular songs will show more concrete trends throughout the decades.
+
+#### Origins
+The data and information itself is collected from Spotify. Spotify has playlists that highlight the top songs from each decade, so even though Spotify does not have direct numbers about how popular songs were on its platform going back to the 1950's (obviously), they have playlists from each decade and of course are able to collect data from every recording that is posted on its platform. The data files have been compiled on Kaggle, where we got it, but the original data is from Spotify. The data is raw and is not written to push an agenda or sell a particular artist, it is available to help answer and explore questions regarding every decade. We plan on using this data set to explore possible trends in the real world (like introduction of steaming platforms, rising popularity of social media, cultural shifts, etc.) and how it may affect trends in music popularity.
+
 
 ### 5.0 Expected Implications
 Given that we know the answer to our design question, we think that this will give the people a clearer picture in the growth of these platforms and from this, they may be able to have an idea on what may have caused such rapid growths. This data might also help those who are looking to enter the music industry, since it will allow them to know the best way to gain recognition or know if music digitalization platforms can serve as a basis for their careers. As for the platforms themselves, they might be able to find patterns in the causation in rapid growths or whether they have exhausted the demand for music digitalization a certain region/genre or not.
@@ -54,6 +87,7 @@ Carbone, Nicholas (2019). _Spotify Past Decades Songs Attributes_. Retrieved fro
 Spotify (2021). _Number of Spotify Premium Subscibers Worldwide from 1st Quarter 2015 to 3rd Quarter 2021_. Retrieved from https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
 
 Tableau, C. (2020, May 24). _Visualizing 40 Years of Music industry Sales_. Retrieved February 4, 2022, from https://data.world/makeovermonday/2020w21-visualizing-40-years-of-music-industry-sales
+<<<<<<< HEAD
 
 
 ## Developer Notes
@@ -84,3 +118,5 @@ Tableau, C. (2020, May 24). _Visualizing 40 Years of Music industry Sales_. Retr
 |Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
 |References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
+=======
+>>>>>>> a51dd2f9c894b6a72be5fd6a95f909b85fd62280
