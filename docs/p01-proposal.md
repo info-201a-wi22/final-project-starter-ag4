@@ -31,6 +31,9 @@ An area of interest that we shared and chose to analyze is music. Today, music i
   **3.** The third dataset that we found was the number of sales regarding the music industry. In this dataset, there were 3,008 observations for 5 columns (format(CD, tape, etc.), metric. the years, and the number of records sold.) of the number of sales between 1973 to 2019.
     * the human values from this set is the transgression of music from physical copies of songs such as CDs, Vinyl records, and tapes towards streaming platforms and music digitalization downloads. From this, we can draw connections to the genres that were dominant in each era of the different mediums of listening to music, or the favorable mediums of music in each decade. The direct stakeholders are listeners of music and those who are responsible for the production of these different sources of music. The indirect stakeholders here are people who make music, as they might not know about the progression of how people listen to music.
 
+**3.** The third design situation that we considered is the songs that were most popular in each decade from 1950 to 2019. This dataset is made by Spotify and it shows specific details of each song that we can gain more insight into the direction of which song is popular in the given timeframe.
+  * For this dataset, the human values of this dataset deals most with which songs that the general populous determines as more popular throughout the recent few decades. The direct stakeholders here are the people that listen to music since the 1950, since these data provides a representation of the direction that music popularity is going. The indirect stakeholders for this can be the people who are distributing music, as they might not know the trends of popularity of music, but are responsible for giving people access to music.
+
 
 ### 3.0 Research Questions
 
@@ -50,7 +53,7 @@ Carbone, Nicholas (2019). _Spotify Past Decades Songs Attributes_. Retrieved fro
 
 Spotify (2021). _Number of Spotify Premium Subscibers Worldwide from 1st Quarter 2015 to 3rd Quarter 2021_. Retrieved from https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
 
-Tableau, C. (2020, May 24). _Visualizing 40 Years of Music industry Sales_. Retrieved February 4, 2022, from https://data.world/makeovermonday/2020w21-visualizing-40-years-of-music-industry-sales 
+Tableau, C. (2020, May 24). _Visualizing 40 Years of Music industry Sales_. Retrieved February 4, 2022, from https://data.world/makeovermonday/2020w21-visualizing-40-years-of-music-industry-sales
 
 
 ## Developer Notes
