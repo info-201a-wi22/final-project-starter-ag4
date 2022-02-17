@@ -17,13 +17,19 @@ music_2010 <- rename(music_2010, "Number" = "ï..Number")
 
 all_music <- do.call("rbind", list(music_1950,music_1960,music_1970, music_1980, music_1990, music_2000,music_2010))
 
-x <- all_music %>% 
-  mutate(decade = floor(year/10)*10) 
+all_music <- all_music %>% 
+  mutate(decade = floor(year/10)*10)
+
+write.csv(all_music,"/Users/jwaltzer/Documents/Info201Code/final-project-starter-ag4/data/all_music.csv", row.names = TRUE)
+
+
 #%>% 
  #group_by(decade) 
 
 
-ggplot(x) +
+#do a write csv file and put it in data folder 
+
+graph_jacob <- ggplot(all_music) +
   geom_point(mapping = aes(x = year, y = dur)) +
   geom_smooth(mapping = aes(x = year, y = dur))
 
