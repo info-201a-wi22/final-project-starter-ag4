@@ -1,6 +1,6 @@
 ---
-title: "Your Project Title"
-author: "project team members"
+title: "Music Popularity Over The Years"
+author: "Non Pronanun, Jacob Waltzer, Carson Klein, Cole Graham"
 date: "1/22/2022"
 output: html_document
 ---
@@ -21,8 +21,9 @@ knitr::opts_chunk$set(echo = TRUE)
 # Example 1: Note relative path, which can be read: Up one
 # directory(..), down into source (/source), and 
 # then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
+source("../source/Chart_Non.R")
+source("../source/Chart_Carson.R")
+source("../source/chart_jwaltzer.R")
 ```
 
 ### Example 2: Initialize a variable and then use it
@@ -47,8 +48,12 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r , echo=FALSE}
+plot(graph_non)
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r , echo=FALSE}
+plot(plot_carson)
+```
+```{r , echo=FALSE}
+plot(graph_jacob)
+```
