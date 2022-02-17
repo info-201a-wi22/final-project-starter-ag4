@@ -18,7 +18,6 @@ Our main question is how do societal changes influence the popularity of music g
 * Popularity
 * Societal changes
 * Barriers to entry
->>>>>>> a51dd2f9c894b6a72be5fd6a95f909b85fd62280
 
 ### 1.0 Introduction
 An area of interest that we shared and chose to analyze is music. Today, music is something that is universal, almost everyone listens to music in their leisure time. People's source of music has also evolved over the years and when we think of music nowadays, we don't think of cassette tapes and turntables anymore, rather we lean towards music digitalization and streaming platforms such as Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their development over the years.
@@ -94,11 +93,16 @@ summary_table
 ```{r , echo=FALSE}
 plot(graph_non)
 ```
+Purpose: to see the correlation between the BPM and the energy level of a song. It's a common belief that faster songs (higher BPM) have higher energy.
+
+Insights: Most songs have the same energy level, with a clustered group at 125 BPM, therefore faster BPMs don't mean higher energy level.
 
 ```{r , echo=FALSE}
 plot(plot_carson)
 ```
 
+
 ```{r , echo=FALSE}
 plot(graph_jacob)
 ```
+This scatterplot shows how the duration of songs (in seconds) has changed since the late 1940s through the 2010s. In addition to the actual points, I drew the averages of each year in a blue line to show the trend. The trend shows that when data first started being collected, the songs were closer to the 100-150 second, and maxed out at around the 250 second range in the 1980s. Recently, the songs have become shorter and shorter, now averaging around the 200 second mark.  
