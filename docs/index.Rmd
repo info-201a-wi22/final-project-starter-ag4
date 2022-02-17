@@ -79,7 +79,9 @@ source("../source/chart_jwaltzer.R")
 source("../source/summary_table.R")
 ```
 
-###
+## Summary Paragraph
+Our dataset consists of information about the most popular songs since the 1940s. Data included categories such as artist, song title, genre, year, beats per minute, a scale for decibels, and more. We decided to group our data by decade and then analyze the features of the songs from each decade. We did this because we were more interested in the trends of songs over time rather than the specific attributes of a particular song or artist. Our compiled dataset included 667 songs, and we found that the decade with the longests songs (by average) were the 1980’s which had an average song length of 254.3 seconds (4 minutes 14 second). The decade with the loudest songs on average (measured in decibels) were the 2000s. The 1940’s had the fastest songs in terms of beats per minute with an average of 127 bpm. The final attribute that we analyzed was called “nrgy”, which measures the “energy” of a song, and although it was not measured with common units, the higher the nrgy value, the more energetic the song was reported to be. The decade that had the most energetic songs was the 2000s. 
+
 
 ## Aggregate Table
 
