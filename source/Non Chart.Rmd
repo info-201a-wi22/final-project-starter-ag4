@@ -22,7 +22,7 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-ggplot(music2010, aes(x=bpm, y=dnce)) + geom_point() + geom_density2d(
+ggplot(music2010, aes(x=bpm, y=dnce)) + geom_point() + geom_density2d()
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
