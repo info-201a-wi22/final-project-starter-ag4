@@ -87,7 +87,7 @@ Our dataset consists of information about the most popular songs since the 1940s
 ```{r}
 summary_table
 ```
-
+This table shows the mean values for the most important parts of data that we used in our charts. We included this table to show how each decade compares to one another. We sorted this data by decade which allows for data to be easily compared. This allows for trends in music to be seen across the decades. 
 ## Data Visualizations
 
 ```{r , echo=FALSE}
