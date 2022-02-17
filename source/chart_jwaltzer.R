@@ -20,7 +20,7 @@ all_music <- do.call("rbind", list(music_1950,music_1960,music_1970, music_1980,
 all_music <- all_music %>% 
   mutate(decade = floor(year/10)*10)
 
-write.csv(all_music,"/Users/jwaltzer/Documents/Info201Code/final-project-starter-ag4/data/all_music.csv", row.names = TRUE)
+# write.csv(all_music,"https://github.com/info-201a-wi22/final-project-starter-ag4/blob/main/data/all_music.csv", row.names = TRUE)
 
 
 #%>% 
