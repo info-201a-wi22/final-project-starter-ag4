@@ -28,6 +28,7 @@ plot(graph_non)
 ```{r , echo=FALSE}
 plot(plot_carson)
 ```
+The boxplots shown here represent the increasing median volume (in decibels) of popular music over time. That is, since the 1950s, the median volume for the most popular songs of each decade has continued to increase by some amount with each new decade, which represents the trend of people prefering to listen to louder music than they did in the past.
 
 ```{r , echo=FALSE}
 plot(graph_jacob)
