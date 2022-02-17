@@ -16,14 +16,16 @@ music_2000 <- read.csv(filename_2000, header = TRUE, stringsAsFactors = FALSE) %
 filename_2010 <- "https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-ag4/main/data/2010.csv"
 music_2010 <- read.csv(filename_2010, header = TRUE, stringsAsFactors = FALSE) %>% mutate(decade = 2010)
 
-music_1970 <- rename(music_1970, "Number" = "ï..Number")
-music_1980 <- rename(music_1980, "Number" = "ï..Number")
-music_1990 <- rename(music_1990, "Number" = "ï..Number")
-music_2000 <- rename(music_2000, "Number" = "ï..Number")
-music_2010 <- rename(music_2010, "Number" = "ï..Number")
+#music_1970 <- rename(music_1970, "Number" = "?..Number")
+#music_1980 <- rename(music_1980, "Number" = "?..Number")
+#music_1990 <- rename(music_1990, "Number" = "?..Number")
+#music_2000 <- rename(music_2000, "Number" = "?..Number")
+#music_2010 <- rename(music_2010, "Number" = "?..Number")
 
 all_music <- rbind(music_1950, music_1960, music_1970, music_1980, music_1990, music_2000, music_2010)
 
 plot_carson <- ggplot(all_music, aes(group = decade, x = dB, fill = decade)) +
   geom_boxplot() +
-  labs(title = "dB of Music across decades")
+  labs(title = "Volume of Popular Music across Decades",
+       x = "Volume of Music (dB)",
+       fill = "Decade")
