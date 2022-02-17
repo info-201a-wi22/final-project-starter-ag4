@@ -26,4 +26,10 @@ all_music <- rbind(music_1950, music_1960, music_1970, music_1980, music_1990, m
 
 plot_carson <- ggplot(all_music, aes(group = decade, x = dB, fill = decade)) +
   geom_boxplot() +
+<<<<<<< HEAD:source/Chart_Carson.R
   labs(title = "dB of Music across decades")
+=======
+  labs(title = "Volume of Popular Music across Decades",
+       x = "Volume of Music (dB)",
+       fill = "Decade")
+>>>>>>> ca1e9180c817fd968297caed64e79ca71b1129e5:source/Chart Carson.R
