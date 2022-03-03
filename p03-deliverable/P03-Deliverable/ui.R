@@ -1,5 +1,10 @@
 source("server.R")
 
+
+introduction <- tabPanel(
+  h4("Introduction")
+)
+
 page1 <- tabPanel(
   h4("Page 1")
 )
@@ -14,6 +19,7 @@ page3 <- tabPanel(
 
 ui <- navbarPage(
   tags$title("P03 Final Deliverable"),
+  introduction,
   page1,
   page2,
   page3
