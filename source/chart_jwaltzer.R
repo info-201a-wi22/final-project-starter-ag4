@@ -9,11 +9,11 @@ music_1980 <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/final-p
 music_1990 <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-ag4/main/data/1990.csv")
 music_2000 <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-ag4/main/data/2000.csv")
 music_2010 <- read.csv("https://raw.githubusercontent.com/info-201a-wi22/final-project-starter-ag4/main/data/2010.csv")
-#music_1970 <- rename(music_1970, "Number" = "?..Number")
-#music_1980 <- rename(music_1980, "Number" = "?..Number")
-#music_1990 <- rename(music_1990, "Number" = "?..Number")
-#music_2000 <- rename(music_2000, "Number" = "?..Number")
-#music_2010 <- rename(music_2010, "Number" = "?..Number")
+music_1970 <- rename(music_1970, "Number" = "ï..Number")
+music_1980 <- rename(music_1980, "Number" = "ï..Number")
+music_1990 <- rename(music_1990, "Number" = "ï..Number")
+music_2000 <- rename(music_2000, "Number" = "ï..Number")
+music_2010 <- rename(music_2010, "Number" = "ï..Number")
 
 all_music <- do.call("rbind", list(music_1950,music_1960,music_1970, music_1980, music_1990, music_2000,music_2010))
 

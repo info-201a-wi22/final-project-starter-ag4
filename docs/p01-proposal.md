@@ -1,5 +1,9 @@
 # Music Popularity Over the Years
 
+**Code Name:**
+
+Music-4
+
 **Authors**
 
 Jacob Waltzer (jacobwaltzer03@gmail.com)
@@ -14,7 +18,6 @@ Non Pronanun (ntppronanun@gmail.com)
 
 **Date:** Winter 2022
 
-<<<<<<< HEAD
 **Abstract**
 =======
 ### Abstract
@@ -27,7 +30,6 @@ Our main question is how do societal changes influence the popularity of music g
 * Popularity
 * Societal changes
 * Barriers to entry
->>>>>>> a51dd2f9c894b6a72be5fd6a95f909b85fd62280
 
 ### 1.0 Introduction
 An area of interest that we shared and chose to analyze is music. Today, music is something that is universal, almost everyone listens to music in their leisure time. People's source of music has also evolved over the years and when we think of music nowadays, we don't think of cassette tapes and turntables anymore, rather we lean towards music digitalization and streaming platforms such as Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their development over the years.
@@ -87,7 +89,6 @@ Carbone, Nicholas (2019). _Spotify Past Decades Songs Attributes_. Retrieved fro
 Spotify (2021). _Number of Spotify Premium Subscibers Worldwide from 1st Quarter 2015 to 3rd Quarter 2021_. Retrieved from https://www.statista.com/statistics/244995/number-of-paying-spotify-subscribers/
 
 Tableau, C. (2020, May 24). _Visualizing 40 Years of Music industry Sales_. Retrieved February 4, 2022, from https://data.world/makeovermonday/2020w21-visualizing-40-years-of-music-industry-sales
-<<<<<<< HEAD
 
 
 ## Developer Notes
@@ -118,5 +119,4 @@ Tableau, C. (2020, May 24). _Visualizing 40 Years of Music industry Sales_. Retr
 |Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
 |References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
-=======
->>>>>>> a51dd2f9c894b6a72be5fd6a95f909b85fd62280
+
