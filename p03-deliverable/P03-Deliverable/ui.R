@@ -17,6 +17,14 @@ page3 <- tabPanel(
   h4("Page 3")
 )
 
+page4 <- tabPanel(
+  h4("Summary Takeaways")
+)
+
+page5 <- tabPanel(
+  h4("Report")
+)
+
 ui <- navbarPage(
   tags$title("P03 Final Deliverable"),
   introduction,
