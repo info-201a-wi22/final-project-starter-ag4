@@ -15,17 +15,13 @@ page1 <- tabPanel(
 )
 
 page2 <- tabPanel(
-  h4("Page 2")
-)
-
-page3 <- tabPanel(
-  h4("Interactice Chart 3"),
+  h4("Page 2"),
   fluidPage(
     titlePanel("Duration of Songs Over Years by Genre"),
     sidebarLayout(
       sidebarPanel(
         selectInput("genre",label="Genre:",
-                    choices=unique(all_musicx$Genre)),
+                    choices=unique(dropdown_options_jake$top.genre)),
         hr(),
         sliderInput(
           "size", label="Point Size: ", max=5,min = 1,value = 3)
@@ -36,6 +32,33 @@ page3 <- tabPanel(
       
     ),
     helpText("")
+  )
+  
+)
+
+page3 <- tabPanel(
+  h4("Page 3"),
+  p("The visualization on this page attempts to find trends in different values that were recorded in the
+    data set and group them by decade so we can see the variations -- the increase/decrease in the value across
+    each of the decade. The values that are selected for the graph are the BPM, the Energy Level and the
+    Danceability of the songs summarized by the mean in each decade that was included in the data set."),
+  fluidPage(    
+    titlePanel("Music Statistics By Decade"),
+    sidebarLayout(      
+      sidebarPanel(
+        selectInput("type", "Type:", 
+                    choices=colnames(graph_non)),
+        hr(),
+        helpText("This graph shows the trends in each value across the decade. From this, we can see
+                 that the BPM hasn't really changed over the years, there were differences but they didn't
+                 show any trends about where the graph is heading. The Danceability of the songs has increased
+                 from decade to decade, and the energy level has also increased decade by decade.")
+      ),
+      mainPanel(
+        plotOutput("dataplot", click = "point_click"),
+        verbatimTextOutput("info")
+      )
+    )
   )
 )
 

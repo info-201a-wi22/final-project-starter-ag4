@@ -17,10 +17,15 @@ graph_non <- music_data %>%
   remove_rownames() %>%
   column_to_rownames(var = "decade")
   
+
 chart_data_jake <- music_data %>%
-  select(year,dur,top.genre)%>%
-  rename("Genre" = "top.genre")
-#filter(Genre != is.null(TRUE))
+  select(year,dur,top.genre,year)
+
+dropdown_options_jake <- music_data %>%
+  select(year,dur,top.genre,year) %>%
+  group_by(top.genre)%>%
+  summarize(count_in_genre = length(top.genre))%>%
+  filter(count_in_genre>5)
 
 server <- function(input, output) {
   output$dataplot <- renderPlot({
@@ -30,20 +35,20 @@ server <- function(input, output) {
             ylim = c(0, 150),
             col = "#69b3a2",
             ylab = "Value",
-            xlab = "Type")
+            xlab = "Decade")
   })
   
   
   output$chart <- renderPlotly({
     plot_data <- chart_data_jake %>%
-      filter(Genre==input$genre)%>%
+      filter(top.genre ==input$genre)%>%
       select(year,dur)
     
     ggplot(plot_data)+
       geom_point(
         mapping = aes_string(x="year",y="dur"),
         size=input$size
-      )+
+      )+ geom_smooth(mapping = aes(x = year, y = dur)) +
       labs(
         x="Year",
         y="Duration of Song (Seconds)",
