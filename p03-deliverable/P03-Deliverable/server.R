@@ -21,6 +21,6 @@ server <- function(input, output) {
             ylim = c(0, 150),
             col = "#69b3a2",
             ylab = "Value",
-            xlab = "Type")
+            xlab = "Decade")
   })
 }
