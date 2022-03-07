@@ -2,7 +2,15 @@ source("server.R")
 
 
 introduction <- tabPanel(
-  h4("Introduction")
+  h4("Introduction"),
+  p("This project centers around the trends of music and the way that its components has changed over
+    the decades. From the data set, we were able to find specific information about each track of music
+    and from that we can analyze the patterns of music in each of the decades. The importance of this project
+    is that music, like us, are always evolving and trends that were popular last year may have changed by now. We wanted
+    to find the things that have changed over the rise of mainstream music, 1940, up to the most recent decade, the 2010s.
+    Furthermore, music is something that has the power to bring people together and more than ever has been a source of comfort
+    for many people, so we wanted to explore the trends of music and perhaps visualize the direction that music will take in
+    the near future.")
 )
 
 page1 <- tabPanel(
