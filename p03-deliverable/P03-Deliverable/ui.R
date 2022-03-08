@@ -5,9 +5,11 @@ library(plotly)
 library(styler)
 library(tidyverse)
 library(shiny)
+library(shinythemes)
 
 introduction <- tabPanel(
   h4("Introduction"),
+  h2("Introduction"),
   p("This project centers around the trends of music and the way that its components has changed over
     the decades. From the data set, we were able to find specific information about each track of music
     and from that we can analyze the patterns of music in each of the decades. The importance of this project
@@ -86,10 +88,13 @@ page4 <- tabPanel(
 
 page5 <- tabPanel(
   h4("Report"),
-  p("Music Data Over The Years by Non Pronanun, Jacob Waltzer, Carson Klein, Cole Graham --
+  h2("Music Data Over The Years by Non Pronanun, Jacob Waltzer, Carson Klein, Cole Graham --
     University of Washington, March 7, 2022"),
-  p("Keywords: Music genre, Popularity, Societal changes, Barriers to entry"),
-  p("Abstract: Our main question is how do societal changes influence the popularity of music 
+  p(" "),
+  h3("Keywords: "),
+  p("Music genre, Popularity, Societal changes, Barriers to entry"),
+  h3("Abstract: "),
+  p("Our main question is how do societal changes influence the popularity of music 
     genres which is important because music is a very large industry and is influential in many 
     people's lives. To address this question we will evaluate the most popular songs since the 1950s 
     and their attributes (i.e. beats per minute, year, genre, etc.), Spotify premium subscribers per 
@@ -98,27 +103,32 @@ page5 <- tabPanel(
     possible and compare to ensure accuracy. Considering that music is more accessible than ever, this 
     is important because music is integral to lives of people. Accordingly, we plan to observe trends 
     in data pertaining to popularity of music genres."),
-  p("Introduction: An area of interest that we shared and chose to analyze is music. Today, music is 
+  h3("Introduction: "),
+  p("An area of interest that we shared and chose to analyze is music. Today, music is 
     something that is universal, almost everyone listens to music in their leisure time. People's source 
     of music has also evolved over the years and when we think of music nowadays, we don't think of cassette
     tapes and turntables anymore, rather we lean towards music digitalization and streaming platforms such as
     Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners
     from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their 
     development over the years."),
-  p("Design Situation: The third design situation that we considered is the songs that were most popular in each decade
+  h4("Design Situation: "),
+  p("The third design situation that we considered is the songs that were most popular in each decade
     from 1950 to 2019. This dataset is made by Spotify and it shows specific details of each song that we can gain more 
     insight into the direction of which song is popular in the given timeframe. For this dataset, the human values of this 
     dataset deals most with which songs that the general populous determines as more popular throughout the recent few decades. 
     The direct stakeholders here are the people that listen to music since the 1950, since these data provides a representation 
     of the direction that music popularity is going. The indirect stakeholders for this can be the people who are distributing 
     music, as they might not know the trends of popularity of music, but are responsible for giving people access to music."),
-  p("Research Questions: How do societal changes influence the popularity of specific music genres? 
+  h3("Research Questions: "),
+  p("How do societal changes influence the popularity of specific music genres? 
     How do changing barriers to entry influence the popularity of specific music genres?"),
-  p("The Dataset: The dataset that we used was made up of 7 files in total, each file had roughly 100 rows of the top songs
+  h3("The Dataset: "),
+  p("The dataset that we used was made up of 7 files in total, each file had roughly 100 rows of the top songs
     from each decade from 1950 to 2010, there were roughly 15 columns for each value. The detail/complexity of the data set is
     pretty in-depth, there are values and attributes such as the BPM, energy, level, genre, and length of the songs. The data set
     comes from Spotify. They make the statistics for what songs are listened to most in each of the decade."),
-  p("Findings: The goal of this was to find specific information and trends in music throughout the decades where music has been
+  h3("Findings: "),
+  p("The goal of this was to find specific information and trends in music throughout the decades where music has been
     commercialized and popularized. The data set that we chose to work with had a pretty good level of complexity and detail to it
     so we were able to wrangle out a lot of data, but we decided that we would include the trends of the graph that we created using
     the data and the variables that we found to be most interesting and surprising. The things that we learned from this dataset is that 
@@ -128,7 +138,8 @@ page5 <- tabPanel(
     peaked in the 1980s and it decreased aferwards, and that earlier songs in the dataset tended to have significantly smaller 
     duration than the later ones did. The average length of songs throughout the data set was 254 seconds, and the 2000's had songs 
     with the higest volume levels and also the highest energy levels, The fastest songs were from the 1940s, with an average BPM of 127."),
-  p("Discussion: The main reason that we chose this topic to work with was because we all share the same interest in music and find that 
+  h3("Discussion: "),
+  p("The main reason that we chose this topic to work with was because we all share the same interest in music and find that 
     music in today's world is an important part in everyday life for most people. Ever since the COVID19 pandemic hit, music has become a
     source of happiness and relief that most people choose to dive into. Music can offer a sense of escapism and empathy through the lyrics
     and also the melodies of the songs. For these reasons we decided to choose music as the central idea that we would base our project around.
@@ -138,7 +149,8 @@ page5 <- tabPanel(
     conversations that we have throughout the day. Therefore, it was important for us because if something holds this much power over people's daily
     lives than it should be considered and studied extensively to find the underlying patterns and the different aspects of it as much as we can with
     the given data that we have access to."),
-  p("Conclusion: The data that we found shows some correlation between different decades. The one we found to be most interesting is the fact
+  h3("Conclusion: "),
+  p("The data that we found shows some correlation between different decades. The one we found to be most interesting is the fact
     that music tends to be louder in the later decades which could mean that it was an attempt to make music more immersive and effective than previous
     decades. Although the correlation in our data doesn't necessary mean causation and that the patterns that arise may not be caused by the trends of
     time, it is certainly worth noting the increase/decrease in different values of the graphs. All in all, it was fun to work with this data set, and we
@@ -147,6 +159,7 @@ page5 <- tabPanel(
 )
 
 ui <- navbarPage(
+  theme = shinytheme("sandstone"),
   tags$title("P03 Final Deliverable"),
   introduction,
   page1,
