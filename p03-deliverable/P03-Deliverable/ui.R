@@ -24,7 +24,7 @@ page1 <- tabPanel(
     titlePanel("Volume of Popular Music across Decades"),
     sidebarLayout(
       sidebarPanel(
-        selectInput("genre",label="Genre:",
+        selectInput("decade",label="Decade:",
                     choices=carson$decade),
       ),
       mainPanel(
