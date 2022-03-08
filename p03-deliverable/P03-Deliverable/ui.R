@@ -26,13 +26,9 @@ page1 <- tabPanel(
       sidebarPanel(
         selectInput("genre",label="Genre:",
                     choices=carson$decade),
-        hr(),
-        sliderInput(
-          "size", label="Point Size: ", max=5,min = 1,value = 3)
-        
       ),
       mainPanel(
-        plotlyOutput("chart"))
+        plotlyOutput("plot"))
       
     )
   )
