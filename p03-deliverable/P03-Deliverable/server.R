@@ -21,11 +21,14 @@ graph_non <- music_data %>%
 chart_data_jake <- music_data %>%
   select(year,dur,top.genre,year)
 
+
 dropdown_options_jake <- music_data %>%
   select(year,dur,top.genre,year) %>%
   group_by(top.genre)%>%
   summarize(count_in_genre = length(top.genre))%>%
   filter(count_in_genre>5)
+
+carson <- music_data %>% select(dB, decade)
 
 server <- function(input, output) {
   output$dataplot <- renderPlot({
@@ -54,5 +57,14 @@ server <- function(input, output) {
         y="Duration of Song (Seconds)",
         title ="Duration of Songs Over Years by Genre"
       )
+  })
+  
+  output$plot <- renderPlotly({
+    
+    ggplot(music_data %>% filter(decade %in% input$decades), aes_string(group = "decade", x = "dB", fill = "decade")) +
+      geom_boxplot() +
+      labs(title = "Volume of Popular Music across Decades",
+           x = "Volume of Music (dB)",
+           fill = "Decade")
   })
 }

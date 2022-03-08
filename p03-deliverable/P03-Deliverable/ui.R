@@ -20,8 +20,24 @@ introduction <- tabPanel(
     the near future.")
 )
 
+
+
 page1 <- tabPanel(
-  h4("Page 1")
+  h4("Page 1"),
+  fluidPage(
+    titlePanel("Volume of Popular Music across Decades"),
+    sidebarLayout(
+      sidebarPanel(
+        checkboxGroupInput(inputId = 'decades',
+                           label = 'Decade Selection',
+                           choices = unique(carson$decade),
+                           selected = unique(carson$decade))
+      ),
+      mainPanel(
+        plotlyOutput("plot"))
+      
+    )
+  )
 )
 
 page2 <- tabPanel(
