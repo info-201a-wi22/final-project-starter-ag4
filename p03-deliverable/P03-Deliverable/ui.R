@@ -25,7 +25,7 @@ page1 <- tabPanel(
     sidebarLayout(
       sidebarPanel(
         selectInput("genre",label="Genre:",
-                    choices=unique(dropdown_options_jake$top.genre)),
+                    choices=carson$decade),
         hr(),
         sliderInput(
           "size", label="Point Size: ", max=5,min = 1,value = 3)
