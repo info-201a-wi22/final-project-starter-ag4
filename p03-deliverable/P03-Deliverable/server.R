@@ -61,7 +61,7 @@ server <- function(input, output) {
   
   output$plot <- renderPlotly({
     
-    ggplot(music_data, aes(group = decade, x = dB, fill = decade)) +
+    ggplot(music_data %>% filter(decade %in% input$decades), aes_string(group = "decade", x = "dB", fill = "decade")) +
       geom_boxplot() +
       labs(title = "Volume of Popular Music across Decades",
            x = "Volume of Music (dB)",
