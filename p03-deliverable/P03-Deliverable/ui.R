@@ -128,6 +128,12 @@ page5 <- tabPanel(
     conversations that we have throughout the day. Therefore, it was important for us because if something holds this much power over people's daily
     lives than it should be considered and studied extensively to find the underlying patterns and the different aspects of it as much as we can with
     the given data that we have access to."),
+  p("Conclusion: The data that we found shows some correlation between different decades. The one we found to be most interesting is the fact
+    that music tends to be louder in the later decades which could mean that it was an attempt to make music more immersive and effective than previous
+    decades. Although the correlation in our data doesn't necessary mean causation and that the patterns that arise may not be caused by the trends of
+    time, it is certainly worth noting the increase/decrease in different values of the graphs. All in all, it was fun to work with this data set, and we
+    hope that the data that we found from this can provide you with more context and insights into the direction that music may be heading towards in the 
+    near future.")
 )
 
 ui <- navbarPage(
