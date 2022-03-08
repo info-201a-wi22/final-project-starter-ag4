@@ -40,6 +40,10 @@ page1 <- tabPanel(
 
 page2 <- tabPanel(
   h4("Page 2"),
+  p("This visualization shows the duration of songs over the years of a selected genre. A single genre must 
+    be represented over 5 times to show up as an option on the dropdown menu to avoid a chart with only one or a couple songs.
+    Once a genre is selected, every song of that genre is plotted on the graph with the song year on the x axis and song 
+    duration (in seconds) on the y axis."),
   fluidPage(
     titlePanel("Duration of Songs Over Years by Genre"),
     sidebarLayout(
@@ -47,6 +51,12 @@ page2 <- tabPanel(
         selectInput("genre",label="Genre:",
                     choices=unique(dropdown_options_jake$top.genre)),
         hr(),
+        helpText("This plot shows the trends in song duration over the years given a particular genre. We can see that many of the 
+                 genres have no strong increase or decrease in song length throughout the years, and most seem to average around the 
+                 250-300 seconds per song range, however, a few genres do have a noticable trend. In the late 1970s, disco songs were around
+                 260 seconds, but recently are averaging closer to 200, showing a clear and steady decrease in average song length in recent
+                 times. Probably the clearest trend in a single genre is the shortening of songs within the dance pop genre, which started at 
+                 about 275 seconds per song in the 1980s, but has shortened to the 210-225 second range in the 2010s. "),
         sliderInput(
           "size", label="Point Size: ", max=5,min = 1,value = 3)
         
@@ -54,8 +64,8 @@ page2 <- tabPanel(
       mainPanel(
         plotlyOutput("chart"))
       
-    ),
-    helpText("")
+    )
+    
   )
   
 )
