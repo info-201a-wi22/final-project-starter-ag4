@@ -24,8 +24,13 @@ music_2010 <- rename(music_2010, "Number" = "ï..Number")
 
 all_music <- rbind(music_1950, music_1960, music_1970, music_1980, music_1990, music_2000, music_2010)
 
-plot_carson <- ggplot(all_music, aes(group = decade, x = dB, fill = decade)) +
+
+music_data <- read.csv("data/all_music.csv")
+
+plot_carson <- ggplot(music_data, aes(group = decade, x = dB, fill = decade)) +
   geom_boxplot() +
   labs(title = "Volume of Popular Music across Decades",
        x = "Volume of Music (dB)",
        fill = "Decade")
+
+plot_carson

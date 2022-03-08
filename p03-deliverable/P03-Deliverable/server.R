@@ -21,6 +21,8 @@ graph_non <- music_data %>%
 chart_data_jake <- music_data %>%
   select(year,dur,top.genre,year)
 
+
+
 dropdown_options_jake <- music_data %>%
   select(year,dur,top.genre,year) %>%
   group_by(top.genre)%>%

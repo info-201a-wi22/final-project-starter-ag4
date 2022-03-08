@@ -19,7 +19,23 @@ introduction <- tabPanel(
 )
 
 page1 <- tabPanel(
-  h4("Page 1")
+  h4("Page 1"),
+  fluidPage(
+    titlePanel("Volume of Popular Music across Decades"),
+    sidebarLayout(
+      sidebarPanel(
+        selectInput("genre",label="Genre:",
+                    choices=unique(dropdown_options_jake$top.genre)),
+        hr(),
+        sliderInput(
+          "size", label="Point Size: ", max=5,min = 1,value = 3)
+        
+      ),
+      mainPanel(
+        plotlyOutput("chart"))
+      
+    )
+  )
 )
 
 page2 <- tabPanel(
