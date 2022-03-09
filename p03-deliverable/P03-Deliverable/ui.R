@@ -6,6 +6,8 @@ library(styler)
 library(tidyverse)
 library(shiny)
 library(shinythemes)
+#install.packages("png")
+library(png)
 
 introduction <- tabPanel(
   h4("Introduction"),
@@ -17,7 +19,8 @@ introduction <- tabPanel(
     to find the things that have changed over the rise of mainstream music, 1940, up to the most recent decade, the 2010s.
     Furthermore, music is something that has the power to bring people together and more than ever has been a source of comfort
     for many people, so we wanted to explore the trends of music and perhaps visualize the direction that music will take in
-    the near future.")
+    the near future."),
+  mainPanel(img(src = "music_colors.png", width = 720, height = 360))
 )
 
 
