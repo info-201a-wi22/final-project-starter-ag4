@@ -27,6 +27,9 @@ introduction <- tabPanel(
 
 page1 <- tabPanel(
   h4("Page 1"),
+  p("This visualization displays about the changes in dB (volume) in popular music over the past eight decades (1940s-2010s). 
+    The decibel values provided had been shifted negatively on the decibel scale from their actual values, but are still directly comparable to eachother. 
+    To compare individual decades against eachother, simply deselect all other decades listed in the selection tool and the plot will update automatically."),
   fluidPage(
     titlePanel("Volume of Popular Music across Decades"),
     sidebarLayout(
@@ -34,7 +37,13 @@ page1 <- tabPanel(
         checkboxGroupInput(inputId = 'decade',
                            label = 'Decade Selection',
                            choices = unique(data_select$decade),
-                           selected = unique(data_select$decade))
+                           selected = unique(data_select$decade)),
+        hr(),
+        helpText("By comparing the median volumes of individual years using the selection tool, we can see an overall increase in median volume of 6.5 decibels
+                 between the 1940s and 2010s. This is approximately equal to the difference in typical decibel volumes between a handheld drill and a rock concert. 
+                 This transition has been mostly steady, with most decades seeing small increase in their median music volumes versus the previous decade. All of this 
+                 is to say that, on average, each decade's most popular songs tend to be louder than those of the previous decade, creating a strong pattern over time of
+                 increasing median decibel volumes."),
       ),
       mainPanel(
         plotlyOutput("plot"))
