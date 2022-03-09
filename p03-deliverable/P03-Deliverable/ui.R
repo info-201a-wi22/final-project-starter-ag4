@@ -130,10 +130,10 @@ page4 <- tabPanel(
     folk and as time progressed, genres such as disco, heavy metal, rap, and EDM all emerged- which are seen as high
     volume, with a large variety of sounds. We also believe the change in danceability is likely due to trends in 
     popularity."),
-  p("Volume has also increased greatly over time. As music technology has progressed, there is more access to unique 
-    sounds and many ways to manipulate these sounds. This has led to songs having fewer quiet spots. Also, genres
+  p("Music volume has also trended positively over time. As music-related technology has advanced, access to unique 
+    sounds and ways to manipulate these sounds has increased. This has led to songs having fewer quiet sections. Also, new genres
     that have emerged in the past 30 years such as EDM, hip hop, grunge, and rap tend to be louder than older genres
-    such as folk and R&B. An interesting reason why volume increased from the late 90s to the early 2000s is the idea
+    such as folk and R&B. Another interesting reason why volume increased from the late 90s to the early 2000s is the idea
     of a volume war where artists wanted to outdo each other when attempting to make catchy, unique music. Bands such
     as Metallica would make their songs louder and louder to catch the listener's attention."),
   img(src = "music_mediums.png", width = 620, height = 323)
