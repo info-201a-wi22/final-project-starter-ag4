@@ -151,7 +151,7 @@ page5 <- tabPanel(
     Spotify or Apple Music. In recent years, these platforms grew rapidly with almost 400 million monthly listeners
     from Spotify alone. Therefore, we wanted to find out the growth patterns of these platforms and analyze their 
     development over the years."),
-  h4("Design Situation: "),
+  h3("Design Situation: "),
   p("The third design situation that we considered is the songs that were most popular in each decade
     from 1950 to 2019. This dataset is made by Spotify and it shows specific details of each song that we can gain more 
     insight into the direction of which song is popular in the given timeframe. For this dataset, the human values of this 
