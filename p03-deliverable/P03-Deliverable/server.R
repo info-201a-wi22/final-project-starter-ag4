@@ -64,8 +64,11 @@ server <- function(input, output) {
     plot <- ggplot(music_data %>% filter(decade %in% input$decade), aes(x = factor(decade), y = dB, fill = decade)) +
       geom_boxplot() +
       labs(title = "Volume of Popular Music across Decades",
-           x = "Volume of Music (dB)",
-           fill = "Decade")
+           x = "Decade",
+           y = "Volume of Music (dB)",
+           fill = "Decade") +
+      guides(fill = FALSE) + 
+      theme_minimal()
     return(plot)
   })
 }
