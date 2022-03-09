@@ -99,7 +99,31 @@ page3 <- tabPanel(
 )
 
 page4 <- tabPanel(
-  h4("Summary Takeaways")
+  h4("Summary Takeaways"),
+  h3("Summary Takeaways"),
+  p("Over time, the medium through which people listen to music has greatly changed. In the 50s and 60s, tuning 
+  into the radio was the most popular, in the 70s and 80s cassettes were the most used, in the 90s CDs emerged
+  and were quite popular, by the 2000s mp3 players became very popular, and throughout the 2010s to today- 
+  streaming is by far the most prominent. The general trend here is that storing music has become less data-intensive
+  as newer formats have more space for songs. This is what we believe is a great influence as to why the duration of
+  songs has greatly increased since the 50s. Also, with mediums such as the radio- it is not possible to skip a
+  song so a station would be safer to play short songs to keep audiences tuned in to prevent them from leaving 
+  due to boredom caused by a long song they could potentially dislike. However, duration has steadily decreased
+  since the 80s, we believe this is because the attention span of listeners has decreased as the ease of access to 
+  millions of songs has emerged. Also, the large change in the music industry due to digital music has changed the 
+  way artists structure songs, potentially playing a part in this decrease of duration."),
+  p("Since the 50s, millions of people have lived different lives, and through this different have trends appeared. 
+    We believe this is the reason for many of the trends in music we saw through the data. For example, the energy
+    increase is likely due to genres in the 40s and 50s being more calm and slow such as blues, jazz, country, and
+    folk and as time progressed, genres such as disco, heavy metal, rap, and EDM all emerged- which are seen as high
+    volume, with a large variety of sounds. We also believe the change in danceability is likely due to trends in 
+    popularity."),
+  p("Volume has also increased greatly over time. As music technology has progressed, there is more access to unique 
+    sounds and many ways to manipulate these sounds. This has led to songs having fewer quiet spots. Also, genres
+    that have emerged in the past 30 years such as EDM, hip hop, grunge, and rap tend to be louder than older genres
+    such as folk and R&B. An interesting reason why volume increased from the late 90s to the early 2000s is the idea
+    of a volume war where artists wanted to outdo each other when attempting to make catchy, unique music. Bands such
+    as Metallica would make their songs louder and louder to catch the listener's attention.")
 )
 
 page5 <- tabPanel(
