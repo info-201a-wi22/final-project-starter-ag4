@@ -126,7 +126,8 @@ page4 <- tabPanel(
     that have emerged in the past 30 years such as EDM, hip hop, grunge, and rap tend to be louder than older genres
     such as folk and R&B. An interesting reason why volume increased from the late 90s to the early 2000s is the idea
     of a volume war where artists wanted to outdo each other when attempting to make catchy, unique music. Bands such
-    as Metallica would make their songs louder and louder to catch the listener's attention.")
+    as Metallica would make their songs louder and louder to catch the listener's attention."),
+  img(src = "music_mediums.png", width = 620, height = 323)
 )
 
 page5 <- tabPanel(
