@@ -147,14 +147,14 @@ page5 <- tabPanel(
   h3("Keywords: "),
   p("Music genre, Popularity, Societal changes, Barriers to entry"),
   h3("Abstract: "),
-  p("Our main question is how do societal changes influence the popularity of music 
-    genres which is important because music is a very large industry and is influential in many 
+  p("Our main question is how societal changes influence the popularity of music 
+    genres, which is important because music is a very large industry and is influential in many 
     people's lives. To address this question we will evaluate the most popular songs since the 1950s 
     and their attributes (i.e. beats per minute, year, genre, etc.), Spotify premium subscribers per 
     quarter since 2015, and number of music sales depending on medium. Our main concern is that there 
-    is not enough extensive and reliable data; To address this concern we will find as much data as 
+    is not enough extensive and reliable data available; To address this concern we will find as much data as 
     possible and compare to ensure accuracy. Considering that music is more accessible than ever, this 
-    is important because music is integral to lives of people. Accordingly, we plan to observe trends 
+    is important because music is integral to the lives of many people. Accordingly, we plan to observe trends 
     in data pertaining to popularity of music genres."),
   h3("Introduction: "),
   p("An area of interest that we shared and chose to analyze is music. Today, music is 
