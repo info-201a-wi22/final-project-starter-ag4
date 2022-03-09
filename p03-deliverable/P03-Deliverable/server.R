@@ -28,7 +28,7 @@ dropdown_options_jake <- music_data %>%
   summarize(count_in_genre = length(top.genre))%>%
   filter(count_in_genre>5)
 
-carson <- music_data %>% select(dB, decade)
+data_select <- music_data %>% select(dB, decade)
 
 server <- function(input, output) {
   output$dataplot <- renderPlot({
@@ -61,10 +61,11 @@ server <- function(input, output) {
   
   output$plot <- renderPlotly({
     
-    ggplot(music_data %>% filter(decade %in% input$decades), aes_string(group = "decade", x = "dB", fill = "decade")) +
+    plot <- ggplot(music_data %>% filter(decade %in% input$decade), aes(x = factor(decade), y = dB, fill = decade)) +
       geom_boxplot() +
       labs(title = "Volume of Popular Music across Decades",
            x = "Volume of Music (dB)",
            fill = "Decade")
+    return(plot)
   })
 }

@@ -28,10 +28,10 @@ page1 <- tabPanel(
     titlePanel("Volume of Popular Music across Decades"),
     sidebarLayout(
       sidebarPanel(
-        checkboxGroupInput(inputId = 'decades',
+        checkboxGroupInput(inputId = 'decade',
                            label = 'Decade Selection',
-                           choices = unique(carson$decade),
-                           selected = unique(carson$decade))
+                           choices = unique(data_select$decade),
+                           selected = unique(data_select$decade))
       ),
       mainPanel(
         plotlyOutput("plot"))
